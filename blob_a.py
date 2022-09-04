@@ -23,4 +23,4 @@ def index():
     return render_template("meme_index.html", meme_pic=meme_pic, subreddit=subreddit)
 
 
-app.run(threaded=True, port=5000)
+app.run(port=5000)
