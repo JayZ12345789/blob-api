@@ -1,1 +1,1 @@
-web: gunicorn blob-a:app
+web: gunicorn main:app
