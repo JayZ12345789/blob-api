@@ -1,1 +1,1 @@
-web: gunicorn main:app
+web: gunicorn blop_a:app
