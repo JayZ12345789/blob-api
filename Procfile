@@ -1,1 +1,1 @@
-web: gunicorn blop_a:application --preload -b 0.0.0.0:5000 
+web: gunicorn blop_a:app
