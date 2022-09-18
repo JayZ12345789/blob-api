@@ -23,4 +23,5 @@ def index():
     return render_template("meme_index.html", meme_pic=meme_pic, subreddit=subreddit)
 
 
-app.run(port=1024)
+if __name__ == '__main__':
+     app.run(port=1024)
